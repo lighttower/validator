@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lighttower-validators>
+<lighttower-validators>
+	<validator name="required" class="com.icss.lighttower.validator.validators.RequiredValidator"/>
+	<validator name="regex" class="com.icss.lighttower.validator.validators.RegexFieldValidator"/>
+	<validator name="between" class="com.icss.lighttower.validator.validators.BetweenValidator"/>
+	<validator name="min" class="com.icss.lighttower.validator.validators.MinValidator"/>
+	<validator name="max" class="com.icss.lighttower.validator.validators.MaxValidator"/>
+	<validator name="equals" class="com.icss.lighttower.validator.validators.EqualsValidator"/>
+	<validator name="timestampLessEqual" class="com.icss.lighttower.validator.validators.TimestampLessEqualValidator"/>
+	<validator name="timestampCreaterEqual" class="com.icss.lighttower.validator.validators.TimestampCreaterEqualValidator"/>
+	<validator name="daterange" class="com.icss.lighttower.validator.validators.DateRangeFieldValidator"/>
+	<validator name="doublerange" class="com.icss.lighttower.validator.validators.DoubleRangeFieldValidator"/>
+	<validator name="intrange" class="com.icss.lighttower.validator.validators.IntRangeValidator"/>
+	<validator name="longrange" class="com.icss.lighttower.validator.validators.LongRangeFieldValidator"/>
+	<validator name="shortrange" class="com.icss.lighttower.validator.validators.ShortRangeFieldValidator"/>
+	<validator name="email" class="com.icss.lighttower.validator.validators.EmailFieldValidator"/>
+</lighttower-validators>
